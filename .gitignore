@@ -1,3 +1,7 @@
+# CLion / JetBrains IDE
+.idea/
+cmake-build-*/
+
 # Prerequisites
 *.d
 
@@ -39,3 +43,19 @@
 
 # debug information files
 *.dwo
+
+# Nix build results
+result
+result-*
+
+# direnv
+.direnv
+
+# nix-direnv cache
+.nix-direnv
+
+# temporary nix shell files
+.nix-shell.*
+
+# nix build logs
+*.drv
