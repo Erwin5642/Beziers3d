@@ -9,12 +9,9 @@ Beziers3d is an interactive 3D Bezier curve simulator developed as part of a Com
 
 The project includes a Python-based preprocessing utility that parses SVG path data into a coordinate format compatible with the simulator, allowing for the spatial transformation and editing of 2D vector designs in a 3D environment.
 
----
 
 ## Example
 ![Project Demo](example.png)
-
----
 
 ## Features
 - 3D Manipulation: Move control points along the X, Y, and Z axes to observe real-time curve deformation.
@@ -41,8 +38,6 @@ Install the required build tools and OpenGL development libraries:
 sudo apt update
 sudo apt install build-essential libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev cmake
 ```
-
----
 
 ## Build and Execution
 
