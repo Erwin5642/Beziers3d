@@ -19,6 +19,9 @@
             mesa
             libGL
             libGLU
+            # Script
+            python3
+            python3Packages.svgpathtools
             ];
         };
     };
